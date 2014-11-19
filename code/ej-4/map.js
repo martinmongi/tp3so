@@ -1,0 +1,5 @@
+function() {
+	var key = this.username;
+	var value = {cant_posts: 1,upvotes: this.number_of_upvotes};
+	emit(key, value);
+}

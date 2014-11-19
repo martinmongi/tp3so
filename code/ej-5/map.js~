@@ -1,0 +1,5 @@
+function() {
+	var key = this.subreddit;
+	var value = {score: this.score,	titulo: this.title};
+	emit(key, value);
+}

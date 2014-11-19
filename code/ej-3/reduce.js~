@@ -1,0 +1,10 @@
+function (key, value){
+
+	reducedValue = {cant_votos: 0, count: 0 };
+   for (var i = 0; i < value.length; i++){
+   	reducedValue.cant_votos += value[i].cant_votos;
+    	reducedValue.count += value[i].count;
+   }
+
+   return reducedValue;
+}

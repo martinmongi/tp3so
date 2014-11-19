@@ -1,0 +1,5 @@
+function (key, reducedValue){
+
+    return (reducedValue.cant_votos)/(reducedValue.count);
+
+}
